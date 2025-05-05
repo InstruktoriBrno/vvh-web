@@ -143,11 +143,12 @@ h1, h2, h3, p, li {
     font-weight: bold;
     white-space: nowrap;
     margin: 0;
-    font-size: clamp(30px, 3vw, 40px);
+    font-size: clamp(20px, 3vw, 40px);
   }
   .vvh-text {
     margin-bottom: 0px;
     font-size: clamp(15px, 2vw, 30px);
+    text-align: justify;
   }
 
   .vvh-list-text {
@@ -187,13 +188,12 @@ h1, h2, h3, p, li {
   }
 
   .vvh-button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: #244044ff;
-    color: white;
+    color: #bcd8c1ff;
     text-decoration: none;
     border-radius: 10px;
     font-size: clamp(20px, 3vw, 40px);
-    font-family: sans-serif;
     transition: background-color 0.3s;
   }
 
@@ -203,27 +203,43 @@ h1, h2, h3, p, li {
 
 
   .vvh-block-zluta {
-    padding-top:25px;
-    padding-bottom:25px;
+    padding: 40px 5px;
     background-color: #f5e9a3ff;
+  }
+  @media (max-width: 767px) {
+    .vvh-block-zluta {
+      padding: 25px 5px;
+    }
   }
 
   .vvh-block-tyrkys {
-    padding-top:25px;
-    padding-bottom:25px;
+    padding: 40px 5px;
     background-color: #4eacabff;
+  }
+  @media (max-width: 767px) {
+    .vvh-block-tyrkys {
+      padding: 25px 5px;
+    }
   }
 
   .vvh-block-orange {
-    padding-top:25px;
-    padding-bottom:25px;
+    padding: 40px 5px;
     background-color: #eab229ff;
+  }
+  @media (max-width: 767px) {
+    .vvh-block-orange {
+      padding: 25px 5px;
+    }
   }
 
   .vvh-block-zelena {
-    padding-top:25px;
-    padding-bottom:25px;
+    padding: 40px 5px;
     background-color: #bcd8c1ff;
+  }
+  @media (max-width: 767px) {
+    .vvh-block-zelena {
+      padding: 25px 5px;
+    }
   }
 
   .vvh-footer {
