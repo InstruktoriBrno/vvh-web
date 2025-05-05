@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="301mm"
+   height="298mm"
+   viewBox="0 0 301 298"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="vvh-puzzle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.36569514"
+     inkscape:cx="854.53692"
+     inkscape:cy="659.01887"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="2"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect19"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialogue if no flatten result after convert clip to paths." />
+    <rect
+       x="-2003.2058"
+       y="-711.56342"
+       width="1388.3221"
+       height="235.89874"
+       id="rect1143" />
+    <rect
+       x="-1972.2682"
+       y="-406.05521"
+       width="1705.4319"
+       height="247.50034"
+       id="rect1144" />
+    <rect
+       x="-2598.7534"
+       y="-320.97699"
+       width="533.67261"
+       height="132.59727"
+       id="rect1145" />
+    <rect
+       x="-2598.7534"
+       y="-320.97699"
+       width="533.67261"
+       height="132.59727"
+       id="rect1146" />
+    <rect
+       x="-2598.7534"
+       y="-320.97699"
+       width="533.67261"
+       height="132.59727"
+       id="rect1147" />
+    <rect
+       x="-2598.7534"
+       y="-320.97699"
+       width="533.67261"
+       height="132.59727"
+       id="rect1148" />
+    <filter
+       id="mask-powermask-path-effect18_inverse"
+       inkscape:label="filtermask-powermask-path-effect18"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect18_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect18_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath19">
+      <path
+         id="path19"
+         style="display:block;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.32892;stroke-miterlimit:4.3;paint-order:markers fill stroke"
+         d="M -630.43784,-359.09581 V 1306.6014 H 2484.8154 V -359.09581 Z M 1.32608,0 H 1600 V 899.2535 H 1.32608 Z" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#4e8a92;fill-opacity:1;stroke:none;stroke-width:0.165281px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 63.593344,29.663379 84.650756,26.97552 c -19.3463,-93.3546 115.5549,-54.6567599 52.78867,17.49295 l 67.66597,21.63018 -24.46439,73.793591 c 91.82276,-22.57419 59.99173,118.00182 -16.7227,53.96485 L 204.5261,295.65049 128.53025,272.14443 C 188.62722,204.96413 69.719694,156.10289 72.127594,254.88238 L 1.720106,232.44574 25.196624,159.52334 c 88.710166,62.4479 96.411336,-78.236851 17.47759,-56.33373 z"
+       id="path5"
+       sodipodi:nodetypes="ccccccccccccc" />
+  </g>
+</svg>
