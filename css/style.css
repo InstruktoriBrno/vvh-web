@@ -183,7 +183,7 @@ h1, h2, h3, p, li {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .vvh-button {
@@ -203,26 +203,26 @@ h1, h2, h3, p, li {
 
 
   .vvh-block-zluta {
-    padding-top:16px;
-    padding-bottom:16px;
+    padding-top:20px;
+    padding-bottom:20px;
     background-color: #f5e9a3ff;
   }
 
   .vvh-block-tyrkys {
-    padding-top:16px;
-    padding-bottom:16px;
+    padding-top:20px;
+    padding-bottom:20px;
     background-color: #4eacabff;
   }
 
   .vvh-block-orange {
-    padding-top:16px;
-    padding-bottom:16px;
+    padding-top:20px;
+    padding-bottom:20px;
     background-color: #eab229ff;
   }
 
   .vvh-block-zelena {
-    padding-top:16px;
-    padding-bottom:16px;
+    padding-top:20px;
+    padding-bottom:20px;
     background-color: #bcd8c1ff;
   }
 
