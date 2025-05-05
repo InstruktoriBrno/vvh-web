@@ -69,7 +69,7 @@ h1, h2, h3, p, li {
   background-image: url('../img/vvh-hlavicka.svg');
   background-size: cover;  /* Makes the image cover the entire div */
   background-position: center; /* Centers the image */
-  height: 600px; /* Adjust as needed */
+  height: 650px; /* Adjust as needed */
   width: 100%; /* Full width */
 }
 
@@ -99,7 +99,7 @@ h1, h2, h3, p, li {
     text-align: center;
     color: #244044ff;
     display: flex;
-    margin-top: 200px;
+    margin-top: 220px;
     margin-left: 2%;
     margin-right: 2%;
   }
@@ -112,7 +112,7 @@ h1, h2, h3, p, li {
 
   @media (max-width: 767px) {
     .vvh-header .vvh-title {
-      margin-top: 100px
+      margin-top: 110px
     }
   }
 
@@ -126,7 +126,7 @@ h1, h2, h3, p, li {
     display: flex;
     justify-content: right;  /* align horizontal */
     height: 50px;
-    margin-top: 50px;
+    margin-top: 35px;
     margin-left: 2%;
     margin-right: 2%;
   }
