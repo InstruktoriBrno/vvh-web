@@ -24,6 +24,10 @@ body {
     font-size: 14px;
 }
 
+h1, h2, h3, p, li {
+  color: #244044ff;
+}
+
 .navbar-expand {
   padding: 0px;
 }
@@ -36,12 +40,13 @@ body {
   width: max-content;
   /*min-width: 200px; */
   /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
-  z-index: 1000;
+  z-index: 100;
 }
 
 .navbar .nav-link {
   color: #4f8a92ff;
-  font-size: 20px;
+  font-size: clamp(15px, 2.5vw, 30px);
+  margin: 0px 1.5vw;
   font-weight: bold;
 }
 
@@ -51,7 +56,7 @@ body {
 
 .rounded-navbar {
   border-bottom-left-radius: 16px; /* Only bottom-left */
-  padding-top: 10px;
+  padding-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
   overflow: hidden;     /* Ensures child elements don't spill over */
@@ -110,6 +115,7 @@ body {
       margin-top: 100px
     }
   }
+
   
 
   .vvh-header .vvh-subtitle {
@@ -134,17 +140,19 @@ body {
 
 
   .vvh-text-title {
-    margin-top:16px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0;
     font-size: clamp(30px, 3vw, 40px);
   }
   .vvh-text {
-    margin-top:16px;
+    margin-bottom: 0px;
     font-size: clamp(15px, 2vw, 30px);
   }
 
   .vvh-list-text {
-    margin-top:16px;
     padding-left:70px;
+    margin-bottom: 0px;
     font-size: clamp(15px, 2vw, 30px);
   }
 
@@ -160,6 +168,16 @@ body {
     }
   }
 
+  .vvh-odkaz-text {
+    color: #4f8a92ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .vvh-odkaz-text:hover {
+    color: #4eacabff;
+  }
+  
 
   .vvh-button-wrapper {
     display: flex;
@@ -183,4 +201,54 @@ body {
     background-color: #4f8a92ff;
   }
 
+
+  .vvh-block-zluta {
+    padding-top:16px;
+    padding-bottom:16px;
+    background-color: #f5e9a3ff;
+  }
+
+  .vvh-block-tyrkys {
+    padding-top:16px;
+    padding-bottom:16px;
+    background-color: #4eacabff;
+  }
+
+  .vvh-block-orange {
+    padding-top:16px;
+    padding-bottom:16px;
+    background-color: #eab229ff;
+  }
+
+  .vvh-block-zelena {
+    padding-top:16px;
+    padding-bottom:16px;
+    background-color: #bcd8c1ff;
+  }
+
+  .vvh-footer {
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color: #bcd8c1ff;
+  }
+
+  .vvh-kontakt {
+    display: flex;
+    flex-direction: column;   /* Stack h2 and p vertically */
+    align-items: flex-start;  /* Align h2 and p to the left */
+    width: max-content;       /* Adjust width to fit the content */
+    margin: 0 auto;           /* Horizontally center the block within the column */
+  }
+
+
+  .vvh-nazev-block {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vvh-sovicka {
+    margin-left: 30px
+  }
   

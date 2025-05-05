@@ -1,0 +1,42 @@
+<body>
+     <div class="vvh-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="vvh-kontakt">
+                        <h2 class="vvh-text-title">Kontakt</h2>
+                        <p class="vvh-text"><a class="vvh-odkaz-text" href="mailto:vvh@instruktori.cz">vvh@instruktori.cz</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="vvh-nazev-block">
+                        <h2 class="vvh-text-title">Instruktoři<br>Brno</h2>
+                        <img class="vvh-sovicka" src="img/sova-tm-tyrkys.png" alt="sova">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.addEventListener('resize', adjustImageSize);
+      
+        function adjustImageSize() {
+          const h2 = document.querySelector('.vvh-text-title');
+          const img = document.querySelector('.vvh-sovicka');
+      
+          // Get the computed font size of h2
+          const fontSize = window.getComputedStyle(h2).fontSize;
+      
+          // Parse the font size as a number (removing the 'px' suffix)
+          const fontSizeValue = parseFloat(fontSize);
+      
+          // Set the image height to 3 times the font size
+          img.style.height = `${fontSizeValue * 2.4}px`;
+        }
+      
+        // Call function on load to set the initial size
+        adjustImageSize();
+    </script>
+</body>

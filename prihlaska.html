@@ -1,71 +1,131 @@
 <!doctype html>
 <html lang="cz">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Title ======-->
     <title>Víkend vymýšlení her</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Víkend vymýšlení her</title>
+    <meta property="og:title" content="Víkend vymýšlení her">
+    <meta property="og:image" content="https://vvh.instruktori.cz/img/nadpis_final.png">
+    <meta property="og:url" content="https://vvh.instruktori.cz">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    
     <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
     </script>
     <script> 
-    $(function(){ 
-        $("#header").load("header.html"); 
-    });
+        $(function(){
+            $("#header").load("header.html"); 
+        });
     </script>
-  </head>
-  <body onload="preload_images();">
-    <div id="header"></div>
-    <nav class="navbar sticky-top navbar-expand vvh-navbar" style = "padding:0px">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                onmouseover="changeImage('imguvod')" onmouseout="resetImage('imguvod')">
-                    <img class = "nav-img" id="imguvod"
-                    src="img/figurine_empty.svg" alt="uvod"/>
-                    Úvod</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                <img class = "nav-img" id="imgprihlasky"
-                    src="img/figurine_visit.svg" alt="prihlaska"/>
-                    Přihláška</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="ucastnici.html"
-                onmouseover="changeImage('imgucastnici')" onmouseout="resetImage('imgucastnici')">
-                <img class = "nav-img" id="imgucastnici"
-                    src="img/figurine_empty.svg" alt="ucastnici"/>
-                    Účastníci</a>
-            </li>
-        </ul>
-    </nav>
+    <script> 
+        $(function(){
+            $("#footer").load("footer.html"); 
+        });
+    </script>
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand">
+            <div class="container-fluid">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto text-end rounded-navbar" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link"href="index.html">O VVH</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Přihláška</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="info.html">Informace</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>
-                    Akce má již naplněnou kapacitu. Můžeš se ale přihlásit jako náhradník.
-                </h3>
-                <p>Pro konkrétní instrukce jak se přihlásit a zaplatit se podívej na <a href="index.html#prihlasovani">úvodní stránku</a>.</p>
-                <div style="display: flex; justify-content: center;">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMaIpwo5983BbcEU_0q_f0srVA_nYDoTxLnZf62ith88sVTQ/viewform?embedded=true" width="640" height="2082" frameborder="0" marginheight="0" marginwidth="0">Načítání…</iframe>
+    <div id="header"></div>
+
+
+    <!--START OF THE CONTENT-->
+    <img class="vvh-image" src="img/prihlasovani-1.jpg" alt="prihlasovani-1">
+
+    <div class="vvh-block-tyrkys">
+        <div class="container">
+            <div class="row">
+                <div class="vvh-text">
+                    <p class="vvh-text">Po vyplnění přihlášky se ti do dvou týdnu ozveme s potvrzením tvé účasti. S uhrazením účastnického poplatku proto prosím počkej, zašleme ti platební údaje.
+                        Snažíme se o vytvoření vyvážené a pestré skupiny mladých dospělých, u kterých odhadujeme, že si vzájemně sednou a že pro ně bude akce přínosná.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-        
-    <script>
-        function changeImage(idd) {
-          document.getElementById(idd).src = 'img/figurine_highlight.svg';
-        }
-        function resetImage(idd) {
-          document.getElementById(idd).src = 'img/figurine_empty.svg';
-        }
-      </script>
+
+    <img class="vvh-image" src="img/prihlasovani-2.JPG" alt="prihlasovani-2">
+
+    <div class="vvh-block-orange">
+        <div class="container">
+            <div class="row">
+                <h2 class="vvh-text-title">Pozdní příjezdy</h2>
+                <p class="vvh-text">Případné pozdní příjezdy na VVH jsou problematické. Pokud víš, že bys přijel/a pozdě (nebo že bys musel/a dřív odjíždět), dej nám prosím co nejdříve vědět. 
+                    V případném rozhodování o účasti budeme rozhodovat s ohledem na to, o jak moc pozdní příjezd (předčasný odjezd) půjde a zda případně existuje zájemce, který může přijet na celou dobu kurzu.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <img class="vvh-image" src="img/prihlasovani-3.jpg" alt="prihlasovani-3">
+
+    <div class="vvh-block-tyrkys">
+        <div class="container">
+            <div class="row">
+                <h2 class="vvh-text-title">Storno podmínky</h2>
+                <p class="vvh-text">Při zrušení účasti před 3. 9. včetně ti vrátíme 70 % účastnického poplatku.</p>
+                <p class="vvh-text">Od 4. 9. do 24. 9. včetně ti vrátíme 50 % účastnického poplatku.</p>
+                <p class="vvh-text">Od 25. 9. do 3. 10. včetně ti vrátíme 10 % účastnického poplatku.</p>
+                <p class="vvh-text">Později ti bohužel nevrátíme nic.</p>
+                <p class="vvh-text">V případě zrušení akce ze strany organizátorů vracíme 100% uhrazené částky. Je možné za sebe sehnat náhradu.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <img class="vvh-image" src="img/prihlasovani-4.jpg" alt="prihlasovani-4">
+
+    <div class="vvh-block-tyrkys">
+        <div class="container">
+            <div class="row"  style="display: flex; justify-content: center;">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfX5F0jqNTru2Z3OCSjb4c1SXRBVKiSSpLrWWeUipRt7FkhYw/viewform?embedded=true" style="align-content: center; width: 100%; max-width: 700px; height: 800px; border: none;" frameborder="0" marginheight="0" marginwidth="0">Načítání…</iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
-    </body>
+</body>
+
 </html>
