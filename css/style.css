@@ -203,7 +203,7 @@ h1, h2, h3, p, li {
 
 
   .vvh-block-zluta {
-    padding: 40px 5px;
+    padding: 40px 10px;
     background-color: #f5e9a3ff;
   }
   @media (max-width: 767px) {
@@ -213,7 +213,7 @@ h1, h2, h3, p, li {
   }
 
   .vvh-block-tyrkys {
-    padding: 40px 5px;
+    padding: 40px 10px;
     background-color: #4eacabff;
   }
   @media (max-width: 767px) {
@@ -223,7 +223,7 @@ h1, h2, h3, p, li {
   }
 
   .vvh-block-orange {
-    padding: 40px 5px;
+    padding: 40px 10px;
     background-color: #eab229ff;
   }
   @media (max-width: 767px) {
@@ -233,7 +233,7 @@ h1, h2, h3, p, li {
   }
 
   .vvh-block-zelena {
-    padding: 40px 5px;
+    padding: 40px 10px;
     background-color: #bcd8c1ff;
   }
   @media (max-width: 767px) {
