@@ -169,7 +169,16 @@ h1, h2, h3, p, li {
     }
   }
 
-  .vvh-odkaz-text {
+  .vvh-odkaz-text-tyrkys {
+    color: #bcd8c1ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .vvh-odkaz-text-tyrkys:hover {
+    color: #244044ff;
+  }
+.vvh-odkaz-text {
     color: #4f8a92ff;
     text-decoration: none;
     font-weight: bold;
@@ -178,6 +187,7 @@ h1, h2, h3, p, li {
   .vvh-odkaz-text:hover {
     color: #4eacabff;
   }
+  
   
 
   .vvh-button-wrapper {
