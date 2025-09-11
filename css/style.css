@@ -145,10 +145,19 @@ h1, h2, h3, p, li {
     margin: 0;
     font-size: clamp(20px, 3vw, 40px);
   }
+  
   .vvh-text {
     margin-bottom: 0px;
-    font-size: clamp(15px, 2vw, 30px);
+    font-size: clamp(20px, 2vw, 30px);
     text-align: justify;
+  }
+
+  .vvh-text-center {
+    margin-bottom: 0px;
+    font-size: clamp(20px, 3vw, 40px);
+    text-align: justify;
+    display: flex;
+    justify-content: center;
   }
 
   .vvh-list-text {
